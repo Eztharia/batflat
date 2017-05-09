@@ -3,19 +3,20 @@ General
 
 Batflat is a Polish content management system that is simple, light and fast. It was first released in May 2016. The free version of the application is shared under a [license](/license) that requires leaving information about the authors and backlinks. Batflat works great when creating small websites such as business identity, portfolios, blogs or home pages. With this documentation you will learn how to install, configure and create your own modules and themes.
 
+Batflat est un système de gestion de contenu polonais simple, léger et rapide. Il a été publié pour la première fois en Mai 2016. La version gratuite est partagée sous [license](/license) qui requiert
 The documentation is divided into several sections. The first is for general instructions, the second is for web designers, and the last two are for web developers.
 
 
-Requirements
+Pré-requis
 ------------
 
-System requirements for Batflat are modest, so every modern server should suffice.
+Les pré-requis système pour Batflat sont modeste, donc tous les serveurs modernes peuvent suffirent.
 
 + Apache 2.2+ with `mod_rewrite`
 + PHP version 5.5+
 + Access to SQLite
 
-PHP configuration must have the following extensions:
+La configuration PHP doit avoir les extentions suivantes :
 
 + dom
 + gd
@@ -28,7 +29,7 @@ PHP configuration must have the following extensions:
 Installation
 ------------
 
-First download the latest version of [Batflat](http://feed.sruu.pl/batflat/download/latest).
+Premièrement téléchargez la dernière version de [Batflat](http://feed.sruu.pl/batflat/download/latest).
 
 Extract all files from the compressed package and then transfer them to the local directory or remote server. In the case of a remote server, connect to it via a (S)FTP client, such as the free [FileZilla](https://filezilla-project.org) program. Usually, files should be uploaded to `www`, `htdocs` or `public_html`.
 
